@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Mantra</title>
+    <style>
+        body {
+            background-image: url(./bg.jpg);
+            /* background-position: center; */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-blend-mode: darken;
+            /* opacity: 0.5; */
+            /* background-attachment: fixed; */
+        }
+        
+        .left {
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            left: 35px;
+            top: 18px;
+            font-size: 25px;
+            size: 10px;
+            color: ivory;
+        }
+        
+        .left img {
+            display: block;
+            margin: auto;
+            width: 59px;
+            filter: invert(80%);
+        }
+        
+        .right {
+            /* border: 2px solid green; */
+            position: absolute;
+            right: 35px;
+            top: 18px;
+            display: inline-block;
+            padding: 7px 9px 9px 9px;
+            font-size: 20px;
+            /* pointer is error */
+            cursor: pointer;
+        }
+        
+        .btn {
+            /* background: rgb(104, 101, 101); */
+            color: rgb(255, 255, 255) !important;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .mid {
+            /* border: 2px solid rgb(26, 185, 224); */
+            display: block;
+            width: 33%;
+            margin: 18px 400px;
+            padding-left: 50px;
+            font-size: 25px;
+        }
+        
+        .mid li {
+            display: inline-block;
+            padding: 0px 22px;
+        }
+        
+        .mid a {
+            text-decoration: none;
+            color: ivory;
+        }
+        
+        .mid li a:hover,
+        .mid li a.active {
+            text-decoration: underline;
+            color: gray;
+            /* transition-delay: 1s; */
+            transition: 0.5s;
+        }
+        
+        .content {
+            /* border: 2px solid pink; */
+            margin: 55px 421px;
+            padding: 80px;
+            display: inline-block;
+            /* width: 22%; */
+            text-align: center;
+            font-size: 25px;
+        }
+        
+        .tbox-group input {
+            text-align: center;
+            width: 325px;
+            display: block;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        
+        .sub {
+            padding: 5px;
+        }
+        
+        .foot {
+            width: 377px;
+            border: 2px solid whitesmoke;
+            color: beige;
+            display: inline-block;
+            flex-direction: row;
+            font-size: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .linkk a {
+            color: beige;
+            text-decoration: none;
+            display: inline-block;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="left">
+            <img src="./logo.png" alt="">
+            <div>Fitness Mantra</div>
+        </div>
+        <div class="right">
+            <button>Call Us</button>
+            <button>About Us</button>
+        </div>
+        <div class="mid">
+            <ul>
+                <li>
+                    <a href="#">Home</a></li>
+                <li>
+                    <a href="#">Plans</a> </li>
+                <li>
+                    <a href="#">Instructor</a> </li>
+                <li>
+                    <a href="#">Tips</a> </li>
+            </ul>
+        </div>
+    </div>
+    </div>
+    <div class="content">
+        <h2 style="color: azure;">Fitness Mantra</h2>
+        <div>
+            <form>
+                <div class="tbox-group">
+                    <input placeholder="Enter your name" type="text" name="name">
+                </div>
+                <div class="tbox-group">
+                    <input placeholder="Enter your age" type="number" name="name">
+                </div>
+                <div class="tbox-group">
+                    <input placeholder="Enter your weight" type="number" name="name">
+                </div>
+                <div class="tbox-group">
+                    <input placeholder="Enter the amount you can afford" type="number" name="name">
+                </div>
+                <div class="tbox-group">
+                    <input placeholder="Enter your height" type="number" name="name">
+                </div>
+
+                <div class="tbox-group">
+                    <input placeholder="select your body type" type="text" name="name">
+                </div>
+                <div class="sub">
+                    <input type="button" value="Submit" style="font-size: 15px;">
+                </div>
+            </form>
+        </div>
+        <div class="foot">
+            <div>
+                <footer style="display: inline-block;">Haresh Vishwa
+            </div>
+            <div><a href="#">Instagram</a></div>
+            <div><a href="#">Gitbhub</a></div>
+            <div><a href="#">twitter</a></div>
+            </footer>
+        </div>
+</body>
+
+</html>
